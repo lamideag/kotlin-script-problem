@@ -1,7 +1,8 @@
-# Problem with JSR233 kotlin scripts
+# Problem with JSR233 kotlin scripts invoking other scripts
 
 The test program is [ScriptExample.kt](src/main/kotlin/ScriptExample.kt)
-It evals a script, which in turn evals a second script. 
+
+The program evals an initial script, which in turn evals a second script. 
 
 Everything works fine in kotlin 1.4.10, but I am seeing problems with 1.4.20.
 
