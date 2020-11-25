@@ -32,7 +32,7 @@ This can be remedied with:
 2) Uncomment `implementation "org.jetbrains.kotlin:kotlin-scripting-jsr223"` in `build.gradle`
 3) Reload the gradle changes
 
-Run the program, you should see the correct output:
+If you run the program, you should see the correct output:
 ```
 I am in script1
 I am in script2
